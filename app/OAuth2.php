@@ -2,7 +2,7 @@
 
 include_once 'config.php';
 
-include_once '../vendor/autoload.php';
+include_once $_SERVER["DOCUMENT_ROOT"].'/vendor/autoload.php';
 
 use AmoCRM\OAuth2\Client\Provider\AmoCRM;
 
