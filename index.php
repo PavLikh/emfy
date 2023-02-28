@@ -34,7 +34,7 @@ if (empty($unauthorized)) {
             border-collapse: collapse;
             width: 100%;">
             <caption style="font-weight: bold;padding: 8px;">
-                Товары у сделки с id "<?=$leadId?>
+                Товары у сделки с id <?=$leadId?>
             </caption>
             <tr style="background-color: #1b3446;color: #ffffff">
                 <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Название</th>
